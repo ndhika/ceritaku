@@ -1,0 +1,35 @@
+/* font-family: 'Courgette', cursive;
+font-family: 'Crimson Text', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lisu Bosa', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px;
+    font-weight: 400;
+    height: 100%;
+    z-index: 1000;
+}
+.navbar-nav{
+    margin-bottom: 250px;
+} 
+.nav-item {
+    padding: 5px 0;
+}
+.navbar-brand{
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+

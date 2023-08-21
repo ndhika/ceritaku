@@ -1,0 +1,63 @@
+/* font-family: 'Courgette', cursive;
+font-family: 'Crimson Text', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lisu Bosa', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+.hero img:hover{
+    width: 300px;
+    transition:20s ease;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    background-image: url(../image/kertas.jpeg);
+    /* background-size: cover;*/
+}
+.navbar{
+    font-weight: 400;
+}
+.navbar-brand{
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero h2{
+    font-family: 'Kaushan Script', cursive;
+}
+.hero h3{
+    font-family: 'Kanit', sans-serif;
+}
+.hero p{
+    font-family: 'Crimson Text', serif;
+    width: 80%;
+    text-indent: 40px;
+}
+.hero a{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lisu Bosa', serif;
+    background-color: rgb(11, 111, 217);
+    color: white;
+    border: 2px solid white;
+    margin-left: 45%;
+    margin-right: 0%;  
+    /* margin-left: 30%; */   
+}
+.hero a:hover{
+    font-family: 'Lisu Bosa', serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(46, 46, 46, 0.855);
+    border:2px solid white;
+}
